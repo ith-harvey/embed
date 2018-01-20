@@ -291,7 +291,7 @@ a:-webkit-any-link {
 
 .vjs-resolution-button-label
 {
-  line-height: 36px!important;
+  line-height: 44px!important;
 }
 
 
@@ -323,7 +323,7 @@ a:-webkit-any-link {
 }
 
 .video-js .vjs-control {
-    width: 3em
+    width: 4.5em
 }
 
 .video-js .vjs-menu-button-inline:before {
@@ -356,9 +356,9 @@ a:-webkit-any-link {
 
 .video-js *,.video-js:after,.video-js:before {
     box-sizing: inherit;
-    font-size: inherit;
+    font-size: 15px;
     color: inherit;
-    line-height: inherit
+    line-height: inherit;
 }
 
 .video-js.vjs-fullscreen,.video-js.vjs-fullscreen .vjs-tech {
@@ -417,41 +417,30 @@ a:-webkit-any-link {
 
 .video-js .vjs-progress-control {
     position: absolute;
-    width: 98%;
-    height: .5em;
-    top: 1em;
+    width: 100%;
+    height: .3em;
+    top: .75em;
     padding-top:0em;
-    -webkit-transition: height .1s, top .1s;
-    -moz-transition: height .1s, top .1s;
-    -ms-transition: height .1s, top .1s;
-    -o-transition: height .1s, top .1s;
-    transition: height .1s, top .1s;
+    -webkit-transition: height .15s, top .15s;
+    -moz-transition: height .15s, top .15s;
+    -ms-transition: height .15s, top .15s;
+    -o-transition: height .15s, top .15s;
+    transition: height .15s, top .15s;
 }
 
 .video-js .vjs-progress-control:hover {
-    height: .7em;
-    top: .9em;
+    height: .5em;
+    top: .6em;
 }
 
 .video-js .vjs-progress-control .vjs-load-progress,.video-js .vjs-progress-control .vjs-play-progress,.video-js .vjs-progress-control .vjs-progress-holder {
     height: 100%
 }
 
-.video-js .vjs-progress-control .vjs-progress-holder {
-}
-
 .video-js .vjs-control-bar {
-  padding-top: 15px;
-}
-
-
-
-
-
-.video-js .vjs-control-bar {
+    padding-top: 15px;
     height: 5em;
     width: 100%;
-    margin: auto;
     -webkit-transition: -webkit-transform 0s ease 0s;
     -moz-transition: -moz-transform 0s ease 0s;
     -ms-transition: -ms-transform 0s ease 0s;
@@ -586,8 +575,10 @@ a:-webkit-any-link {
   line-height: 3em;
   min-width: 2em;
   width: auto;
+  margin-top: .38em;
   padding-left: 0em;
-  padding-right: 0em; }
+  padding-right: 0em;
+}
 
 .video-js .vjs-menu-button-inline:before {
   width: 2.222222222em
