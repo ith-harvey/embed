@@ -165,23 +165,17 @@
   transition: border-color .4s,outline .4s,background-color .4s
 }
 
-.video-js .vjs-menu-button-popup .vjs-menu {
-  left: 0em
+.vjs-big-play-button .vjs-icon-placeholder {
+  font-size: 40px;
 }
 
 .video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
   background-color: transparent;
-  display: table;
-  /* padding-bottom: .5em; */
-  /* bottom: 0px; */
-  float: right;
-  position: fixed;
-  right: 0px;
-  bottom: 36px;
-  width: 200px;
-  margin-right: 0px;
-  padding-right: 0px;
-  border-top: 5px red solid!important;
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+  width: 162px;
+  border-top: 2px red solid!important;
 }
 
 .video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-item,.video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-title {
@@ -328,6 +322,10 @@ a:-webkit-any-link {
 
 .video-js .vjs-menu-button-inline:before {
     width: 1.5em
+}
+
+.vjs-button:focus, .vjs-menu-button:focus {
+  outline: 0;
 }
 
 .vjs-menu-button-inline .vjs-menu {
