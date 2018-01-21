@@ -172,7 +172,7 @@
 .video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
   background-color: transparent;
   position: absolute;
-  bottom: 35px;
+  bottom: 25px;
   right: 10px;
   width: 162px;
   border-top: 2px red solid!important;
@@ -211,10 +211,6 @@
 }
 
 .video-js .vjs-control-bar {
-  /* background: -webkit-linear-gradient(#5f5f5f4d, #191919d4);
-  background: -o-linear-gradient(#5f5f5f4d, #191919d4);
-  background: -moz-linear-gradient(#5f5f5f4d, #191919d4);
-  background: linear-gradient(#5f5f5f4d, #191919d4); */
   background: linear-gradient(transparent, #1f1f1f) !important;
   color: #ffffff;
   font-size: 12px
@@ -247,7 +243,7 @@
 }
 
 .vjs-menu-button.vjs-settings-button{
-width: 4em!important;
+  width: 4em!important;
 }
 
 .vjs-settings-button-staticlabel:before {
@@ -262,13 +258,13 @@ width: 4em!important;
   line-height: 2em;
 }
 .vjs-play-control.vjs-control.vjs-branding-logo{
-display: -webkit-box;
+  display: -webkit-box;
 }
 
 
 
 .vjs-branding-logo{
-   color: white;
+  color: white;
   display: block;
   background-image: url(DTube_White.svg);
   font-size: 1.5em;
@@ -283,16 +279,15 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-.vjs-resolution-button-label
-{
+.vjs-resolution-button-label {
   line-height: 44px!important;
 }
 
 
 .video-js .vjs-resolution-button .vjs-menu li {
-    text-transform: none;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif
+  text-transform: none;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .vjs-menu li {
@@ -306,22 +301,22 @@ a:-webkit-any-link {
 }
 
  .video-js .vjs-load-progress {
-    background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.3);
 }
 .video-js .vjs-menu-button-inline.vjs-slider-active,.video-js .vjs-menu-button-inline:focus,.video-js .vjs-menu-button-inline:hover,.video-js.vjs-no-flex .vjs-menu-button-inline {
-    width: 10em
+  width: 10em
 }
 
 .video-js .vjs-controls-disabled .vjs-big-play-button {
-    display: none!important
+  display: none!important
 }
 
 .video-js .vjs-control {
-    width: 4.5em
+  width: 4.5em
 }
 
 .video-js .vjs-menu-button-inline:before {
-    width: 1.5em
+  width: 1.5em
 }
 
 .vjs-button:focus, .vjs-menu-button:focus {
@@ -329,7 +324,7 @@ a:-webkit-any-link {
 }
 
 .vjs-menu-button-inline .vjs-menu {
-    left: 3em
+  left: 3em
 }
 
 .vjs-paused.vjs-has-started.video-js .vjs-big-play-button,.video-js.vjs-ended .vjs-big-play-button,.video-js.vjs-paused .vjs-big-play-button {
@@ -450,11 +445,11 @@ a:-webkit-any-link {
     visibility: visible;
     opacity: 1;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateY(4.2em);
-    -moz-transform: translateY(4.2em);
-    -ms-transform: translateY(4.2em);
-    -o-transform: translateY(4.2em);
-    transform: translateY(4.2em);
+    -webkit-transform: translateY(4.8em);
+    -moz-transform: translateY(4.8em);
+    -ms-transform: translateY(4.8em);
+    -o-transform: translateY(4.8em);
+    transform: translateY(4.8em);
     -webkit-transition: -webkit-transform 0s ease 0s;
     -moz-transition: -moz-transform 0s ease 0s;
     -ms-transition: -ms-transform 0s ease 0s;
